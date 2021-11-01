@@ -25,8 +25,6 @@ int unosIspredOdredenogEl(Pozicija p, char* ime, char* prezime, int godina_roden
 int sortiraj(Pozicija p);
 int upisUDatoteku(Pozicija p, char* imeDat);
 int citanjeIzDatoteke(Pozicija head, char* imeDat);
-int citajIzDatoteke(char* imeDat);
-
 
 int main()
 {
