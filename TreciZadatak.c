@@ -298,13 +298,7 @@ int upisUDatoteku(Pozicija p, char* imeDat)
 int citanjeIzDatoteke(Pozicija p, char* imeDatoteke)
 {
     FILE* fp;
-    int br = 0;
-    int i = 0;
-    Pozicija q = p;
     char buffer[MLINE] = {0};
-    char ime[MLINE] = {0};
-    char prezime[MLINE] = {0};
-    int godina_rodenja = 0; 
 
     fp = fopen(imeDatoteke, "r");
 
